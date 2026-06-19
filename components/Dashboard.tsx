@@ -49,14 +49,14 @@ const emptyGerencialFilterOptions: GerencialFilterOptions = {
   sociedades: [], sbus: [], divisiones: [], periodos: [], consultores: [], clientes: [],
 };
 const defaultGerencialFilters: GerencialFilters = {
-  sociedad: 'Alura SAS', sbu: '', division: '', periodo: '', consultor: '', cliente: '',
+  sociedad: 'Alura', sbu: '', division: '', periodo: '', consultor: '', cliente: '',
 };
 
 const emptyComercialFilterOptions: ComercialFilterOptions = {
   sociedades: [], consultores: [], clientes: [], productos: [], divisiones: [], periodos: [],
 };
 const defaultComercialFilters: ComercialFilters = {
-  sociedad: 'Alura SAS', consultor: '', cliente: '', productos: [], division: '', periodo: '',
+  sociedad: 'Alura', consultor: '', cliente: '', productos: [], division: '', periodo: '',
 };
 
 function mergeLiveData(live: Partial<DashboardData>): DashboardData {

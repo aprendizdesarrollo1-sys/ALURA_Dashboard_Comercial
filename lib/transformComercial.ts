@@ -19,7 +19,7 @@ type OrderedResumenMensual = ResumenMensual & { _ord: number };
 type OrderedVentaPorZona = VentaPorZona & { _ord: number };
 
 const EQUIPOS_VALIDOS = new Set(['Porcicultura', 'Avicultura', 'Plantas ABA']);
-const SOCIEDADES_PERMITIDAS = new Set(['Alura SAS', 'Alura Business']); // Solo estas sociedades
+const SOCIEDADES_PERMITIDAS = new Set(['Alura', 'Alura Business']); // Solo estas sociedades
 
 function n(v: unknown): number {
   const x = Number(v);
